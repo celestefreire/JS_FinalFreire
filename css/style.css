@@ -1,0 +1,251 @@
+html {box-sizing: border-box;
+    font-size: 62.5%;}
+
+/* GENERAL */
+
+/* PALETA PRINCIPAL
+#E9D5DA ROSA BEBE
+#827397 LILA
+#4D4C7D VIOLETA
+#363062 VIOLETA OSCURO*/
+
+body {
+    background-color: #E9D5DA;
+}
+
+div.container-fluid{
+    padding: 0px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.bg-perezoso {
+    background-color: #827397;
+    color: #4D4C7D;
+    padding-left: 15px;
+}
+
+.bg-dropdown {
+    background-color: #827397;
+}
+
+form{
+    font-size: 1.3rem;
+}
+
+li{
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #827397;
+}
+
+.displayProp {
+    display: inline-block;
+}
+
+.usuarioDiv {
+    display: flex;
+    justify-content: end;
+}
+
+.usuarixs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #363062;
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #E9D5DA;
+    margin-right: 20px;
+}
+
+.usuarixsBis {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #363062;
+    margin-right: 20px;
+}
+
+/* SWAL */
+
+.swalProp {
+    background-color: #D67D3E;
+    color: #470D21;
+    
+}
+
+.swal-button {
+    background-color: #9C0F48;
+}
+
+.swalColor {
+    background-color: #4D4C7D;
+}
+
+.swalTitulo {
+    color: #D67D3E;
+}
+
+/* DIARIAS */
+
+.tituloSeparador{
+    text-align: center;
+padding-top: 50px;
+font-family: 'Bebas Neue', cursive;
+font-size: 5rem;
+text-transform: uppercase;
+}
+
+.divSeparador{
+    background-color: #36306290 ;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+a.list-group-item{
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.divFormularioDiarias{
+    background-color: #4D4C7D70 ;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.btnTareas {
+    background-color: #363062;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #E9D5DA;
+    font-size: 1.5rem;
+}
+
+.formularioTareas {
+    font-size: 1.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #363062;
+}
+
+input{
+    background-color: #4D4C7D30;
+}
+
+.list-group-item-importante {
+    background-color: #7897AB;
+}
+
+a.list-group-item-importante:hover {
+    background-color: #7897AB50;}
+
+.list-group-item-muyimportante {
+    background-color: #D885A3;
+}
+
+a.list-group-item-muyimportante:hover {
+    background-color: #D885A350;
+}
+
+.list-group-item-pocoimportante {
+    background-color: #FDCEB9;
+}
+
+a.list-group-item-pocoimportante:hover {
+    background-color: #FDCEB950;
+}
+
+.list-group-item-fijo {
+    background-color: #4D4C7D;
+    text-align: center;
+    color: #E9D5DA;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a.list-group-item-fijo:hover {
+    background-color: #4D4C7D50;
+}
+
+/* NOTAS */
+
+.divPrincipalNotas {
+    display: inline-block;
+}
+
+.divNotasPerezosas {
+
+    max-width: 200px;
+    min-height: 150px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #827397;
+
+}
+
+.txtNotaPerezosa {
+
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #363062;
+}
+
+/* CONSEJOS */
+
+
+.paddingBoton {
+    padding-left: 20px;
+}
+
+.paddingBotonConsejo {
+    padding-left: 20px;
+}
+
+.btnConsejo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #363062;
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #E9D5DA;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.divConsejo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #363062;
+    background-color: #827397;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #4D4C7D;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.fraseFooter {
+    padding-top: 50px;
+    padding-left: 150px;
+    color: #E9D5DA;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2rem;
+}
+
+
+

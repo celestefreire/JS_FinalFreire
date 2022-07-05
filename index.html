@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORGANIZADOR PEREZOSO</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--TIPOGRAFIA-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--CSS PROPIO-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12" >
+                <header>
+                    <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 displayProp">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-perezoso">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="./imagenes/logo.png" alt="logoperezoso">
+                            </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    PEREZOSO
+                                    </a>
+                            <ul class="dropdown-menu bg-dropdown" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#diarias">¿Qué Hacemos Hoy?</a></li>
+                                <li><a class="dropdown-item" href="#notas">Notas Perezosas</a></li>
+                                <li><a class="dropdown-item" href="#frases">Consejos Perezosos</a></li>
+                            </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </nav>
+                </div>
+                
+                <div class="col-lg-6 col-md-6 col-sm-6 displayProp usuarioDiv">
+                    <button class="displayProp usuarixs" id="botonUsuario">¿Quién sos?</button>
+                    <h1 class="displayProp usuarixsBis" id="nombreUsuario">
+                        USUARIO
+                    </h1>
+                </div>
+            </div>
+                </header>
+                <section id="perezosoinicio">
+                    <div class="container">
+                        <div class="row">
+                        <img src="./imagenes/3-5-1536x1081.png" alt="perezoso">
+                    </div>
+                </div>
+                </section>
+            </div>
+                <section id="tareasdiarias">
+                    <div class="col-lg-12 col-md-12 col-sm-12 divSeparador">
+                        <h1 class="tituloSeparador" id="diarias">¿Qué hacemos hoy?</h1>
+                    </div>
+        
+                    <div class="col-lg-12 col-md-12 col-sm-12 divFormularioDiarias">
+                    <div class="col-md-6 offset-md-3 ">
+                        <form class="formularioTareas" action="">
+                            <label for="tarea">¿Qué tenés que hacer?</label>
+                            <input type="text" id="tarea">
+                            <label for="hora">¿A qué hora?</label>
+                            <input type="text" id="hora">
+                            <label for="importancia">¿Esta tarea es IMPORTANTE, MUY IMPORTANTE o POCO IMPORTANTE?</label>
+                            <input type="text" id="importancia">
+                        </form>
+                        <button class="btnTareas" id="botonDiarias">Agregar Tarea</button>
+                    </div>
+                    </div>
+        
+                    <div class="col-md-6 offset-md-3">
+                        <div class="list-group" id="listaTareasDiv">
+                            <a href="#" class="list-group-item list-group-item-action list-group-item-fijo">TAREAS</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="notas">
+                    <div class="col-lg-12 col-md-12 col-sm-12 divSeparador">
+                        <h1 class="tituloSeparador">NOTAS PEREZOSAS</h1>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 divFormularioDiarias">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-4 paddingBoton">
+                                    <img src="./imagenes/logo.png" alt="">
+                                    <button class="btnConsejo" id="botonNota">NUEVA NOTA</button>
+                                    <img src="./imagenes/logo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="container">
+                        <div class="row" id="notasPerezosas">
+                    <!-- <div class="divPrincipalNotas" id="notasPerezosas">
+
+                        <!-- <div class="divNotasPerezosas">
+                            <p class="txtNotaPerezosa">
+                            </p>
+                        </div> -->
+
+
+                    <!-- </div> -->
+                </div>
+                </div>
+                </section>
+
+                <section id="frases">
+                    <div class="col-lg-12 col-md-12 col-sm-12 divSeparador">
+                        <h1 class="tituloSeparador" id="consejo">Consejos Perezosos</h1>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 divFormularioDiarias">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-4 paddingBotonConsejo">
+                                    <img src="./imagenes/logo.png" alt="">
+                        <button class="btnConsejo" id="btnConsejos">CONSEJO DE HOY</button>
+                        <img src="./imagenes/logo.png" alt="">
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 offset-md-3" id="divConsejoAca">
+                        
+                        <!-- <div class= "divConsejo" id="divConsejo">
+
+                        </div> -->
+                    </div>
+                </section>
+            <div>
+                <footer>
+                    <div class="container">
+                        <div class="row justify-content-end">
+                            <div class="col-4">
+                    <h2 class="fraseFooter">Celeste Freire - 2022</h2>
+                    </div>
+                    </div>
+                    </div>
+                </footer>
+            </div>
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.19/dist/sweetalert2.all.min.js" ></script>
+    <script src="./js/prueba.js"></script>
+        </div>
+    </div>
+</body>
+</html>
